@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <title>facebook.com</title>
+
+    <link rel="stylesheet" href="fb.css" >
+
+</head>
+
+
+<body>
+<header>
+<h2>facebook</h2>
+<form action="#" method="post" autocomplete="off">
+    <fieldset>
+       <legend> <label for="Email">Email or phone</label> </legend>
+    <input type="email",type="tel" id="Email" name = "Email">
+   
+    </fieldset>
+<fieldset>
+    <legend><label for="password">Password</label></legend>
+    <input type="password" id="password" name="password">
+    
+    </fieldset>
+    <p>Forgotten account?</p>
+<button onclick="greet()">Log In</button>
+</form>
+</header>
+
+<article>
+<p><b>Facebook helps you connect and share with the</br> people in your life.</b></p>
+<img src="fbb.png">
+
+
+</article>
+
+<article>
+    <div>
+    <h2 style="color:black;font-size:36px; font-family: Arial, Helvetica, sans-serif;" >Create an account</h2></br>
+    <a style="color:black; font-size:19px; font-family: Arial, Helvetica, sans-serif;">It's quick and easy.</a></br></br>
+   <form>
+<input style=" width:181px;" class="registration" type="text" placeholder="First name">
+<input style=" width:181px;" class="registration" type="text" placeholder="Surname"></br>
+<input style=" width:400px;"  class="registration" type="tel",type="email" placeholder="Mobile number or email address"></br>
+<input style=" width:400px;" class="registration" type="password" placeholder="New password"></br></br>
+<span style="color:grey;font-size: 18px; font-family:Arial, Helvetica, sans-serif"><b>Birthday</b></span></br>
+<select>
+    <option>27</option>
+    <option>28</option>
+</select>
+<select>
+    <option>Feb</option>
+     <option>May</option>
+</select>
+<select>
+    <option>1995</option>
+    <option>2000</option>
+</select></br>
+<span style="color:grey;font-size: 18px; font-family:Arial, Helvetica, sans-serif"><b>Gender</b></span></br>
+<input class="gender" name="gender" type="radio"><label  style="font-family:Arial, Helvetica, sans-serif; padding-right: 10px;padding-left: 3px; font-size: 20px;">Female</label>
+<input class="gender"  name="gender" type="radio"><label style="font-family:Arial, Helvetica, sans-serif; padding-right: 10px;padding-left: 3px; font-size: 20px;">Male</label>
+<input class="gender"  name="gender" type="radio"><label style="font-family:Arial, Helvetica, sans-serif; padding-right: 10px;  padding-left: 3px; font-size: 20px;">Custom</label>
+</br></br>
+<span class="terms">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and</br> <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and </br>can opt out at any time.</span>
+</br></br>
+<button class="lastbutton"> Sign Up</button>
+   </form></br>
+   <span style="font-family: sans-serif; font-size: 14px; color:rgb(94, 92, 92);"><b><a href="#">Create a Page</a> for a celebrity, band or business.</b></span>
+   </div>
+</article>
+<script>
+function greet() {
+    var x=document.getElementById("Email").value;
+    var y=document.getElementById("password").value;
+    alert("Welcome to FACEBOOK "+ x );
+}
+
+</script>
+</body>
+</html>
